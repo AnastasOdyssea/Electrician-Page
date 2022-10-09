@@ -4,6 +4,7 @@
   box-sizing: border-box;
   
 }
+/*BODY*/
 body{
   
   background-image: linear-gradient(to right top, #1e2424, #1d2425, #1d2427, #1d2428, #1e2429,
@@ -12,10 +13,12 @@ body{
   background-size: cover;
   height: 100%;
 }
+/*HEADER*/
 header{
   background-color: #0d040475;
   
 }
+/*SERVICES*/
 li{
   list-style: none;
 }
@@ -30,8 +33,7 @@ a{
 }
 a:hover{
   color: #031b2d;
-  
-}
+  }
 .navbar{
   min-height: 70px;
   display: flex;
@@ -55,9 +57,7 @@ h1{
 .hamburger{
   display: none;
   cursor: pointer;
-  
-
-}
+  }
 .bar{
   display: block;
   width: 25px;
@@ -71,12 +71,9 @@ h1{
   .hamburger{
     display: block;
 position: absolute;
-
-
 top: 20px;
 right: 20px;
-
-  }
+}
   .hamburger.active .bar:nth-child(2){
     opacity: 0;
   }
@@ -103,7 +100,6 @@ transition: 0.3s;
     left: 0;
     
   }
-
 }
 .square {
   border: 7px solid #888468b0;
@@ -130,8 +126,11 @@ justify-content: center;
 .menu{
   margin-top: 30px;
 }
+/*MAIN*/
 .services{
   color: white;
+  
+  margin:150px;
 }
   
     .secondpart{
@@ -148,13 +147,13 @@ justify-content: center;
     height: 550px;
   }
     .container{
-      
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       gap: 20px;
     }
+    /*FOOTER*/
     footer{
       font-size: 20px;
       color: white;
