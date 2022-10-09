@@ -19,6 +19,10 @@ header{
 li{
   list-style: none;
 }
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
 a{
   color: white;
   text-decoration: none;
@@ -37,14 +41,15 @@ a:hover{
   top: 0;
 }
 
-.nav-branding{
+h1{
   font-size: 2rem;
+  color: white;
 }
 .nav-link{
   transition: 0.7s ease;
 }
 .nav-link:hover{
-  color: rgb(41, 41, 96);
+  color: rgb(14, 14, 231);
 }
 
 .hamburger{
@@ -67,6 +72,7 @@ a:hover{
     display: block;
 position: absolute;
 
+
 top: 20px;
 right: 20px;
 
@@ -86,7 +92,6 @@ position:absolute ;
 right: -100%;
 gap: 0;
 flex-direction: row;
-
 width: 100%;
 text-align: center;
 transition: 0.3s;
