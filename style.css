@@ -4,6 +4,8 @@
   box-sizing: border-box;
   
 }
+
+
 /*BODY*/
 body{
   
@@ -18,7 +20,7 @@ header{
   background-color: #0d040475;
   
 }
-/*SERVICES*/
+
 li{
   list-style: none;
 }
@@ -130,7 +132,7 @@ justify-content: center;
 .services{
   color: white;
   
-  margin:150px;
+  margin:100px;
 }
   
     .secondpart{
@@ -143,8 +145,8 @@ justify-content: center;
     margin-top: 100px;
   }
   img{
-    width: 550px;
-    height: 550px;
+    width: 450px;
+    height: 450px;
   }
     .container{
       display: flex;
