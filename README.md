@@ -7,7 +7,7 @@ The font sizes are from Google fonts.
 
 Technologies used
 
-To create this project I have been using HTML , CSS and JAVASCRIPT.
+To create this project I have been using HTML , CSS and JavaScript.
 
 Website
 
